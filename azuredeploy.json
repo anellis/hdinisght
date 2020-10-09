@@ -39,7 +39,7 @@
       },
       "clusterLoginUserName": {
          "type": "string",
-		 "defaultValue": "azureadmin",
+	 "defaultValue": "azureadmin",
          "metadata": {
             "description": "These credentials can be used to submit jobs to the cluster and to log into cluster dashboards."
          }
@@ -72,14 +72,14 @@
       },
       "existingClusterStorageAccountName": {
          "type": "string",
-		 "defaultValue": "stvhdinsightuseast2",
+	 "defaultValue": "stvhdinsightuseast2",
          "metadata": {
             "description": "The name of the storage account to use as the cluster's default storage."
          }
       },
       "newOrExistingClusterStorageContainerName": {
          "type": "string",
-		 "defaultValue": "conhadoopeastus2",
+	 "defaultValue": "conhadoopeastus2",
          "metadata": {
             "description": "The name of the storage container to use."
          }
@@ -93,14 +93,14 @@
       },
       "existingSQLServerName": {
          "type": "string",
-		 "defaultValue": "csahdinsight1",
+	 "defaultValue": "csahdinsight1",
          "metadata": {
             "description": "The name of the existing SQL server to use for the new external metastore SQL db."
          }
       },
       "existingSQLServerUsername": {
          "type": "string",
-		 "defaultValue": "azureadmin",
+	 "defaultValue": "azureadmin",
          "metadata": {
             "description": "The external Hive metastore's existing SQL server admin username."
          }
@@ -127,14 +127,14 @@
       },
       "existingVirtualNetworkName": {
          "type": "string",
-		 "defaultValue": "vnet-csa-eastus2-001",
+	 "defaultValue": "vnet-csa-eastus2-001",
          "metadata": {
             "description": "The existing virtual network name."
          }
       },
       "existingVirtualNetworkSubnetName": {
          "type": "string",
-		 "defaultValue": "snet-csa-eastus2-001",
+	 "defaultValue": "snet-csa-eastus2-001",
          "metadata": {
             "description": "The existing virtual network subnet name."
          }
